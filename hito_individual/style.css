@@ -1,0 +1,169 @@
+
+html {
+    height: 100%; /* Deseo que mi página ocupe toda la pantalla */
+    width: 100%;
+}
+.header{
+    text-align: center;
+    background-color: rgb(222, 236, 236);
+    margin: 0%;
+    padding:0%;
+  
+}
+body{
+    background-image: url(img/footer.jpg);
+}
+.header h1{
+    text-align: center;
+}
+
+nav ul li { /* podemos elegir más de un elemento a formatear*/
+    float: left; /* con esto hacemos que el texto salga en horizontal*/
+    list-style: none;  
+    margin: 8px;
+    text-align: center;
+    
+}    
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:beige;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.footer{
+    
+   
+    font-size: 2.1rem;
+    font-weight: 500;/*Con font-weight especifico el grueso de la letra*/
+    text-align: center;
+} 
+
+@media only screen and (max-width: 414px) and (min-width:350px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      text-align: center;
+      padding: 0%;
+      margin: 0%;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 0%;
+    }
+    .footer{
+        width: 100%;
+      padding: 0%;
+    }
+  
+   
+  }
+  @media only screen and (max-width: 600px) and (min-width:540px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      text-align: center;
+      padding: 0%;
+      margin: 0%;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 0%;
+    }
+    .footer{
+        width: 100%;
+      padding: 0%;
+    }
+  
+  
+  }
+  
+  @media only screen and (max-width: 768px) and (min-width:720px)  {
+    /*  CSS específicos para pantallas de tamaño máximo de 768px */
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      text-align: center;
+      padding: 0%;
+      margin: 0%;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 0%;
+    }
+    .footer{
+        width: 100%;
+      padding: 0%;
+    }
+  }
+  @media only screen and (max-width: 992px) and (min-width:960px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      text-align: center;
+      padding: 0%;
+      margin: 0%;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 0%;
+    }
+    .footer{
+        width: 100%;
+      padding: 0%;
+    }
+   
+    
+  }
+  
+    @media only screen and (max-width: 1200px) and (min-width:1140px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      text-align: center;
+      padding: 0%;
+      margin: 0%;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 0 10px;
+    }
+    .footer{
+        width: 100%;
+      padding: 0%;
+    }
+  
+  
+}
